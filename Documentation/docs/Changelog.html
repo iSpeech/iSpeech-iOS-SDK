@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>Changelog Document</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">iSpeech SDK </a></h1>
+				<a id="developerHome" href="../index.html">iSpeech, Inc</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode" id="pageTitleHeader">Changelog Document</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<a title="Changelog Document" name="top"></a>
+			<div id="overview_contents" role="main">
+				<div id="container">	
+					<h1>Changelog</h1>
+
+<h2>Version 1.0rc7 - November 13th, 2012</h2>
+
+<ul>
+<li>Added support for block-based handlers.</li>
+<li>Added Arabic Male constant.</li>
+<li>Fixed an issue in which recognition would fail after synthesis.</li>
+</ul>
+
+
+<h2>Version 1.0rc6 - October 16th, 2012</h2>
+
+<ul>
+<li>Fixed an issue in which multiple speech recognitions would fail.</li>
+</ul>
+
+
+<h2>Version 1.0rc5 - October 9th, 2012</h2>
+
+<ul>
+<li>Fixed issue with canceling speech synthesis, and then starting speech recognition right away.</li>
+<li>Added error code for speech recognition failing when audio input goes away.</li>
+</ul>
+
+
+<h2>Version 1.0rc4 - September 28th, 2012</h2>
+
+<ul>
+<li>Fixed an issue with sped up or slowed down audio when reusing an ISSpeechSynthesis instance.</li>
+</ul>
+
+
+<h2>Version 1.0rc3 - September 26th, 2012</h2>
+
+<ul>
+<li>Upped speech recognition quality.</li>
+<li>Localized SDK.</li>
+</ul>
+
+
+<h2>Version 1.0rc2 - September 19th, 2012</h2>
+
+<ul>
+<li>Added support for armv7s.<br>
+<strong>NOTE:</strong> As a result of building for armv7s, support for armv6 has been dropped. As a result, the iPhone 3G and 2nd Gen. iPod Touch are no longer supported, and the minimum iOS version requirement has been bumped up to iOS 4.3.</li>
+</ul>
+
+
+<h2>Version 1.0rc1 - August 29, 2012</h2>
+
+<ul>
+<li>Updated audio prompts and microphone image to fix any App Store rejection issues.</li>
+<li>Fixed an issue where audio would resume even if it wasn&rsquo;t playing before.</li>
+</ul>
+
+
+<h2>Version 1.0b7 - August 15th, 2012</h2>
+
+<ul>
+<li>Changed default bit rate from 64 to 48.</li>
+<li>Removed adaptive bit rate.</li>
+<li>Speech recognition doesn&rsquo;t record audio prompts anymore.</li>
+<li>Fixed memory leaks.</li>
+</ul>
+
+
+<h2>Version 1.0b6 - August 1st, 2012</h2>
+
+<ul>
+<li>Fixed autorelease pool issues.</li>
+<li>Fixed an issue with the SDK giving a 303 error even though the ISSpeechSynthesis instance was released.</li>
+<li>Fixed an issue where the SDK would seem to just hang.</li>
+<li>Updated error messages.</li>
+<li>Decreased CPU usage.</li>
+</ul>
+
+
+<h2>Version 1.0b5 - July 9th, 2012</h2>
+
+<ul>
+<li>Fixed issues where errors were sometimes incorrectly returned to the SDK from the server.</li>
+<li>Fixed several memory leaks.</li>
+<li>Fixed UI issues.</li>
+<li><strong>NOTE</strong>: CFNetwork.framework has been added to the SDK and now must be linked against.</li>
+</ul>
+
+
+<h2>Version 1.0b4 - June 4th, 2012</h2>
+
+<ul>
+<li>Fixed instances where started speaking and finished speaking synthesis delegate calls were happening at the same time.</li>
+<li>Fixed speech recognition not timing out properly when called with <code>-[ISSpeechRecognition listenAndRecognizeWithTimeout:error:]</code>.</li>
+<li>Fixed speech synthesis where, in rare cases, towards the end of audio, tapping &ldquo;Cancel&rdquo; doesn&rsquo;t always stop audio.</li>
+<li>Fixed speed not being set properly for speech synthesis.</li>
+<li>Fixed speech synthesis always returning that the user cancelled synthesis, even if they didn&rsquo;t.</li>
+<li>Fixed a crash with two popups being displayed.</li>
+<li>Added check to make sure we have valid text before performing synthesis.</li>
+<li>Renamed <code>busy</code> on <code>iSpeechSDK</code> to <code>isBusy</code>. Your code for calling it shouldn&rsquo;t change.</li>
+<li>Updated Compatibility class for better ARC detection.</li>
+<li>Updated Compatibility class to properly transform <code>ISpeechErrorDomain</code> into <code>iSpeechErrorDomain</code>.</li>
+</ul>
+
+
+<h2>Version 1.0b3 - May 18th, 2012</h2>
+
+<ul>
+<li>Fixed the SDK not seeing &ldquo;startRecord.wav&rdquo; and throwing an exception.</li>
+<li>Fixed the sample app not working on pre-iOS 5.0.</li>
+</ul>
+
+
+<h2>Version 1.0b2 - May 15th, 2012</h2>
+
+<ul>
+<li>Fixed SDK not vibrating when vibrations are turned on.</li>
+<li>Fixed Compatibility Class not setting ISSpeechRecognition delegate.</li>
+<li>Fixed issue with speech recognition dialog popping up and then disappearing.</li>
+<li>Fixed leaks without an autorelease pool.</li>
+<li>Added option to set bit rate of synthesis.</li>
+<li>Added adaptive bit rate, to automatically adjust depending on network connection.</li>
+<li>Updated bundle with optimized images.</li>
+</ul>
+
+
+<h2>Version 1.0b1 - May 1st, 2012</h2>
+
+<h4>iSpeech SDK: The Sequel</h4>
+
+<p>Good news, everyone! The iSpeech SDK for iOS has been rewritten from scratch to improve a number of things.</p>
+
+<ul>
+<li><strong>Minimum OS Requirement</strong>: Due to the SDK using several newer technologies to implement certain features, it now requires iOS 4.0 or higher.</li>
+<li><strong>Segmentation</strong>: The SDK has now been split up into multiple classes to make it easier to work with.</li>
+<li><strong>Better Audio Session Management</strong>: In old versions of the SDK, the AudioSession would get activated right when you initialized the SDK, shutting down any other audio. Now, the audio session is only activated when it&rsquo;s needed, and then shut down when it&rsquo;s not, which results in a better experience for the user.</li>
+<li><strong>Easier Configuration</strong>: It&rsquo;s now easier to configure the SDK, and setup a specific synthesis instance with certain properties.</li>
+<li><strong>Fewer Dependencies</strong>: We&rsquo;ve dramatically reduced the number of frameworks you need to link against to three: <code>AudioToolbox.framework</code>, <code>SystemConfiguration.framework</code>, and <code>Security.framework</code>.</li>
+</ul>
+
+
+<h2>Version 0.9.2 - Jan. 19, 2012</h2>
+
+<ul>
+<li>Fixed recognition lists so that they actually work.</li>
+<li>Fixed an issue with speech synthesis on Verizon 3G.</li>
+</ul>
+
+
+<h2>Version 0.9.1 - Nov. 2, 2011</h2>
+
+<ul>
+<li>The SDK is now provided as a universal binary, which means with one file, you can compile for both the Simulator and for Device. Xcode will strip out anything it doesn&rsquo;t need when building for Release.</li>
+<li>Added iOS 3 support to the SDK for those that require it.</li>
+<li>Added error codes. Now every error code has a enum value for easier code reading of error status codes.</li>
+<li>Added error parameter to several methods. Now, if something goes wrong, and a method returns <code>NO</code>, if you pass in a pointer to an error object, you&rsquo;ll get error details back out of the method.</li>
+<li>Added network checking. The SDK will now check to see if it can connect to the Internet. If it can&rsquo;t, whichever method you call will return <code>NO</code>, and you&rsquo;ll get the <code>kISpeechErrorCodeNoInternetConnection</code> error code from the <code>NSError</code> reference you pass in. As a result, you&rsquo;ll need to now link against SystemConfiguration.framework.</li>
+<li>Added input checking. If no mic is available (such as on a 2nd gen. iPod touch, any methods that start speech recognition will return <code>NO</code>, and you&rsquo;ll get the <code>kISpeechErrorCodeNoInputAvailable</code> error code from the <code>NSError</code> reference you pass in.</li>
+<li>Added speed. Now you can set the speed of speech synthesis.</li>
+<li>Added locale. Now you can set the locale for speech recognition, allowing you to recognition different languages.</li>
+<li>Added model. Now you can specify a model for the SDK, if your API Key supports that.</li>
+<li><code>ISpeechStopListenStartRecognize</code> will now not return <code>NO</code> if you&rsquo;re doing a timed listen, and will in fact stop listening and start recognizing.</li>
+<li>Added extra params. Now, if needed, you can send extra parameters to the server. <strong>Use only if directed.</strong></li>
+<li>Delegates will now be notified if the user presses &ldquo;Cancel&rdquo; on any of the dialogs. They will get an error whose code is <code>kISpeechErrorCodeUserCancelled</code>.</li>
+</ul>
+
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 iSpeech, Inc. All rights reserved. (Last updated: 2014-08-18)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					
+					</div>
+				</div>
+			</div>
+		</article>
+	</body>
+</html>

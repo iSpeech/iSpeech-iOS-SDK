@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C314697C14BF954900E4135F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C314697B14BF954900E4135F /* UIKit.framework */; };
+		C314697E14BF954900E4135F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C314697D14BF954900E4135F /* Foundation.framework */; };
+		C314698014BF954900E4135F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C314697F14BF954900E4135F /* CoreGraphics.framework */; };
+		C314698614BF954900E4135F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C314698414BF954900E4135F /* InfoPlist.strings */; };
+		C314698814BF954900E4135F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C314698714BF954900E4135F /* main.m */; };
+		C314698C14BF954900E4135F /* ISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C314698B14BF954900E4135F /* ISAppDelegate.m */; };
+		C314698F14BF954900E4135F /* ISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C314698E14BF954900E4135F /* ISViewController.m */; };
+		C314699214BF954900E4135F /* ISViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C314699014BF954900E4135F /* ISViewController.xib */; };
+		C314699F14BF9BB800E4135F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C314699E14BF9BB800E4135F /* AudioToolbox.framework */; };
+		C31469A114BF9BC500E4135F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31469A014BF9BC500E4135F /* SystemConfiguration.framework */; };
+		C31469A514C08AEB00E4135F /* iSpeechSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C31469A414C08AEB00E4135F /* iSpeechSDK.bundle */; };
+		C32D9A3B1511046A0060CBDE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32D9A3A1511046A0060CBDE /* Security.framework */; };
+		C396E5061615EA4400F0D0C4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C396E5051615EA4300F0D0C4 /* CFNetwork.framework */; };
+		DE407DA61918401C000918AD /* libiSpeechSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE407DA51918401C000918AD /* libiSpeechSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C314697714BF954900E4135F /* iSpeechSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSpeechSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C314697B14BF954900E4135F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C314697D14BF954900E4135F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C314697F14BF954900E4135F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C314698314BF954900E4135F /* iSpeechSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSpeechSample-Info.plist"; sourceTree = "<group>"; };
+		C314698514BF954900E4135F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C314698714BF954900E4135F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C314698914BF954900E4135F /* iSpeechSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSpeechSample-Prefix.pch"; sourceTree = "<group>"; };
+		C314698A14BF954900E4135F /* ISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISAppDelegate.h; sourceTree = "<group>"; };
+		C314698B14BF954900E4135F /* ISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISAppDelegate.m; sourceTree = "<group>"; };
+		C314698D14BF954900E4135F /* ISViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISViewController.h; sourceTree = "<group>"; };
+		C314698E14BF954900E4135F /* ISViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISViewController.m; sourceTree = "<group>"; };
+		C314699114BF954900E4135F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ISViewController.xib; sourceTree = "<group>"; };
+		C314699E14BF9BB800E4135F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C31469A014BF9BC500E4135F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C31469A414C08AEB00E4135F /* iSpeechSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iSpeechSDK.bundle; sourceTree = "<group>"; };
+		C32D9A3A1511046A0060CBDE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C396E5051615EA4300F0D0C4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C3BCFB91154F3F8100843693 /* iSpeechSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSpeechSDK.h; sourceTree = "<group>"; };
+		C3BCFB92154F3F8100843693 /* ISSpeechRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSpeechRecognition.h; sourceTree = "<group>"; };
+		C3BCFB93154F3F8100843693 /* ISSpeechRecognitionLocales.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSpeechRecognitionLocales.h; sourceTree = "<group>"; };
+		C3BCFB94154F3F8100843693 /* ISSpeechRecognitionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSpeechRecognitionResult.h; sourceTree = "<group>"; };
+		C3BCFB95154F3F8100843693 /* ISSpeechSynthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSpeechSynthesis.h; sourceTree = "<group>"; };
+		C3BCFB96154F3F8100843693 /* ISSpeechSynthesisVoices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSpeechSynthesisVoices.h; sourceTree = "<group>"; };
+		DE407DA51918401C000918AD /* libiSpeechSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiSpeechSDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C314697414BF954900E4135F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE407DA61918401C000918AD /* libiSpeechSDK.a in Frameworks */,
+				C396E5061615EA4400F0D0C4 /* CFNetwork.framework in Frameworks */,
+				C32D9A3B1511046A0060CBDE /* Security.framework in Frameworks */,
+				C31469A114BF9BC500E4135F /* SystemConfiguration.framework in Frameworks */,
+				C314699F14BF9BB800E4135F /* AudioToolbox.framework in Frameworks */,
+				C314697C14BF954900E4135F /* UIKit.framework in Frameworks */,
+				C314697E14BF954900E4135F /* Foundation.framework in Frameworks */,
+				C314698014BF954900E4135F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C314696C14BF954900E4135F = {
+			isa = PBXGroup;
+			children = (
+				C314698114BF954900E4135F /* iSpeechSample */,
+				C314697A14BF954900E4135F /* Frameworks */,
+				C314697814BF954900E4135F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C314697814BF954900E4135F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C314697714BF954900E4135F /* iSpeechSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C314697A14BF954900E4135F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE407DA51918401C000918AD /* libiSpeechSDK.a */,
+				C396E5051615EA4300F0D0C4 /* CFNetwork.framework */,
+				C32D9A3A1511046A0060CBDE /* Security.framework */,
+				C31469A014BF9BC500E4135F /* SystemConfiguration.framework */,
+				C314699E14BF9BB800E4135F /* AudioToolbox.framework */,
+				C314697B14BF954900E4135F /* UIKit.framework */,
+				C314697D14BF954900E4135F /* Foundation.framework */,
+				C314697F14BF954900E4135F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C314698114BF954900E4135F /* iSpeechSample */ = {
+			isa = PBXGroup;
+			children = (
+				C3BCFB97154F3F8400843693 /* iSpeech SDK Headers */,
+				C314698A14BF954900E4135F /* ISAppDelegate.h */,
+				C314698B14BF954900E4135F /* ISAppDelegate.m */,
+				C314698D14BF954900E4135F /* ISViewController.h */,
+				C314698E14BF954900E4135F /* ISViewController.m */,
+				C314699014BF954900E4135F /* ISViewController.xib */,
+				C314698214BF954900E4135F /* Supporting Files */,
+			);
+			path = iSpeechSample;
+			sourceTree = "<group>";
+		};
+		C314698214BF954900E4135F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C31469A414C08AEB00E4135F /* iSpeechSDK.bundle */,
+				C314698314BF954900E4135F /* iSpeechSample-Info.plist */,
+				C314698414BF954900E4135F /* InfoPlist.strings */,
+				C314698714BF954900E4135F /* main.m */,
+				C314698914BF954900E4135F /* iSpeechSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3BCFB97154F3F8400843693 /* iSpeech SDK Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C3BCFB91154F3F8100843693 /* iSpeechSDK.h */,
+				C3BCFB92154F3F8100843693 /* ISSpeechRecognition.h */,
+				C3BCFB93154F3F8100843693 /* ISSpeechRecognitionLocales.h */,
+				C3BCFB94154F3F8100843693 /* ISSpeechRecognitionResult.h */,
+				C3BCFB95154F3F8100843693 /* ISSpeechSynthesis.h */,
+				C3BCFB96154F3F8100843693 /* ISSpeechSynthesisVoices.h */,
+			);
+			name = "iSpeech SDK Headers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C314697614BF954900E4135F /* iSpeechSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C314699514BF954900E4135F /* Build configuration list for PBXNativeTarget "iSpeechSample" */;
+			buildPhases = (
+				C314697314BF954900E4135F /* Sources */,
+				C314697414BF954900E4135F /* Frameworks */,
+				C314697514BF954900E4135F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSpeechSample;
+			productName = iSpeechSample;
+			productReference = C314697714BF954900E4135F /* iSpeechSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C314696E14BF954900E4135F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C314697114BF954900E4135F /* Build configuration list for PBXProject "iSpeechSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ar,
+				cs,
+				da,
+				de,
+				es,
+				fi,
+				fr,
+				hu,
+				it,
+				ja,
+				ko,
+				nb,
+				nl,
+				pl,
+				"pt-PT",
+				pt,
+				ru,
+				sv,
+				tr,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = C314696C14BF954900E4135F;
+			productRefGroup = C314697814BF954900E4135F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C314697614BF954900E4135F /* iSpeechSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C314697514BF954900E4135F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C314698614BF954900E4135F /* InfoPlist.strings in Resources */,
+				C314699214BF954900E4135F /* ISViewController.xib in Resources */,
+				C31469A514C08AEB00E4135F /* iSpeechSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C314697314BF954900E4135F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C314698814BF954900E4135F /* main.m in Sources */,
+				C314698C14BF954900E4135F /* ISAppDelegate.m in Sources */,
+				C314698F14BF954900E4135F /* ISViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C314698414BF954900E4135F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C314698514BF954900E4135F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C314699014BF954900E4135F /* ISViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C314699114BF954900E4135F /* en */,
+			);
+			name = ISViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C314699314BF954900E4135F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C314699414BF954900E4135F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C314699614BF954900E4135F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSpeechSample/iSpeechSample-Prefix.pch";
+				INFOPLIST_FILE = "iSpeechSample/iSpeechSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C314699714BF954900E4135F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSpeechSample/iSpeechSample-Prefix.pch";
+				INFOPLIST_FILE = "iSpeechSample/iSpeechSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C314697114BF954900E4135F /* Build configuration list for PBXProject "iSpeechSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C314699314BF954900E4135F /* Debug */,
+				C314699414BF954900E4135F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C314699514BF954900E4135F /* Build configuration list for PBXNativeTarget "iSpeechSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C314699614BF954900E4135F /* Debug */,
+				C314699714BF954900E4135F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C314696E14BF954900E4135F /* Project object */;
+}
