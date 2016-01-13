@@ -16,5 +16,5 @@ Register your own API key at http://www.ispeech.org/developers.
 
 ### Documentation
 
- [iSpeech iOS SDK Documentation](https://htmlpreview.github.io/?https://github.com/iSpeech/iSpeech-iOS-SDK/blob/master/Documentation/docs/iSpeechSDKProgrammingGuide.html "iSpeech Android SDK Javadoc") 
+ [iSpeech iOS SDK Documentation](http://www.ispeech.org/developer/iframe?src=/iphonesdkdoc/ "iSpeech Android SDK Javadoc") 
  
